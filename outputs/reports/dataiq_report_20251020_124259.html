@@ -1,0 +1,89 @@
+
+        <html>
+          <head><style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1 { color: #222; }
+            .score { font-size: 1.2em; margin-bottom: 10px; }
+            table { border-collapse: collapse; width: 100%; margin-top: 10px; }
+            th, td { border: 1px solid #ccc; padding: 6px 8px; font-size: 12px; }
+            th { background: #f5f5f5; }
+        </style></head>
+          <body>
+            <h1>DataIQ Data Quality Report</h1>
+            <div class="score">Health Score: 93.89</div>
+            <div>Rows: 30 | Columns: 3 | Duplicates: 0 | Total Nulls: 11</div>
+            <h2>Per-column summary (first 50 rows)</h2>
+            <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>column</th>
+      <th>dtype</th>
+      <th>inferred_type</th>
+      <th>null_count</th>
+      <th>duplicate_rows</th>
+      <th>type_mismatch_count</th>
+      <th>unique_count</th>
+      <th>mean</th>
+      <th>median</th>
+      <th>std</th>
+      <th>min</th>
+      <th>max</th>
+      <th>total_rows</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>topic</td>
+      <td>object</td>
+      <td>string</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>3</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>30</td>
+    </tr>
+    <tr>
+      <td>seq</td>
+      <td>int64</td>
+      <td>int</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>12</td>
+      <td>5.733333</td>
+      <td>5.5</td>
+      <td>3.268801</td>
+      <td>1.0</td>
+      <td>12.0</td>
+      <td>30</td>
+    </tr>
+    <tr>
+      <td>info</td>
+      <td>object</td>
+      <td>string</td>
+      <td>11</td>
+      <td>0</td>
+      <td>0</td>
+      <td>19</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>30</td>
+    </tr>
+  </tbody>
+</table>
+            <h2>Anomalies</h2>
+            <ul>
+            <li>seq: 24</li>
+            </ul>
+            <img src="dashboard\assets\charts\anomalies_per_column.png" style="max-width: 100%;" />
+          </body>
+        </html>
+        

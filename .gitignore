@@ -1,0 +1,50 @@
+# ----------------------------------------------------------------------
+# DataIQ Project .gitignore
+# ----------------------------------------------------------------------
+
+# 1. Virtual Environment & Cache
+# ----------------------------------------------------------------------
+# Virtual environment folder
+.venv/
+venv/
+env/
+*.egg
+*.whl
+
+# Pytest cache folder
+.pytest_cache/
+
+# Byte-code files
+__pycache__/
+*.pyc
+*$py.class
+
+# 2. Operating System & Editor Files
+# ----------------------------------------------------------------------
+# Editor/IDE files (VS Code, common)
+.vscode/
+.idea/
+*.swp
+*~
+
+# Thumbs for macOS
+.DS_Store
+
+# 3. Project Outputs (Generated Data, Logs, Reports)
+# ----------------------------------------------------------------------
+# This section excludes the dynamically generated content from your dashboard code.
+# The 'outputs' directory contains profile results, cleaned data, and reports.
+# It should NOT be committed to git.
+outputs/
+
+# Logs directory
+logs/
+
+# Charts/Assets generated for Streamlit dashboard (can be excluded)
+dashboard/assets/charts/*.png
+dashboard/assets/charts/*.jpg
+
+# 4. Streamlit & Python Data Files
+# ----------------------------------------------------------------------
+# Exclude the Streamlit temporary file storage
+.streamlit/

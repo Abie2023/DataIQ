@@ -1,0 +1,31 @@
+# Oracle database connection configuration
+# Copy this file to db_config.local.yaml to override locally (not committed)
+
+oracle:
+  host: 127.0.0.1
+  port: 1521
+  service_name: XEPDB1
+  username: system
+  password: abie
+  # Optional: If you use a TNS alias, set dsn directly and leave host/port/service_name empty
+  dsn: null
+
+sqlalchemy:
+  # Pooling & engine options
+  pool_size: 5
+  max_overflow: 10
+  pool_timeout: 30
+  pool_recycle: 1800 # seconds
+  echo: false
+  # Set encoding for cx_Oracle
+  encoding: UTF-8
+
+fetch:
+  # Default row limit when sampling data
+  sample_rows: 1000
+  # Chunk size for large reads
+  chunksize: 50000
+
+paths:
+  logs_dir: logs
+  outputs_dir: outputs

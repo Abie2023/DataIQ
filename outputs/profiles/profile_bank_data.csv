@@ -1,0 +1,18 @@
+column,dtype,inferred_type,null_count,duplicate_rows,type_mismatch_count,unique_count,mean,median,std,min,max,total_rows
+AGE,int64,int,0,0,0,76,41.2226,39.0,11.923534136598537,18.0,95.0,10000
+JOB,object,string,0,0,0,12,,,,,,10000
+MARTIAL,object,string,0,0,0,3,,,,,,10000
+EDUCATION,object,string,0,0,0,4,,,,,,10000
+DEFAULT_STATUS ,object,string,0,0,0,2,,,,,,10000
+BALANCE,int64,int,0,0,0,3618,1543.5782,557.0,3247.3038301799397,-6847.0,81204.0,10000
+HOUSING,object,string,0,0,0,2,,,,,,10000
+LOAN,object,string,0,0,0,2,,,,,,10000
+CONTACT,object,string,0,0,0,3,,,,,,10000
+DAY,int64,int,0,0,0,31,15.6393,15.0,8.42972725182458,1.0,31.0,10000
+MONTH,object,string,0,0,0,12,,,,,,10000
+DURATION,int64,int,0,0,0,1388,372.1813,255.0,347.54505576527583,2.0,3881.0,10000
+CAMPAIGN,int64,int,0,0,0,36,2.5256,2.0,2.738739620604877,1.0,63.0,10000
+PDAYS,int64,int,0,0,0,459,51.0518,-1.0,108.3561628268658,-1.0,854.0,10000
+PREVIOUS,int64,int,0,0,0,33,0.8329,0.0,2.3156238471263286,0.0,58.0,10000
+POUTCOME,object,string,0,0,0,4,,,,,,10000
+DEPOSIT,object,string,0,0,0,2,,,,,,10000

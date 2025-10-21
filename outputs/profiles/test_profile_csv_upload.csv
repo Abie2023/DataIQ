@@ -1,0 +1,14 @@
+metric,value
+per_column,"              column    dtype inferred_type  null_count  duplicate_rows  ...   median          std      min      max  total_rows
+0        employee_id    int64           int           0               0  ...     15.5     8.803408      1.0     30.0          30
+1               name   object        string           0               0  ...      NaN          NaN      NaN      NaN          30
+2         department   object        string           0               0  ...      NaN          NaN      NaN      NaN          30
+3             salary  float64         float           3               0  ...  65000.0  8840.627532  55000.0  82000.0          30
+4          hire_date   object        string           0               0  ...      NaN          NaN      NaN      NaN          30
+5              email   object        string           2               0  ...      NaN          NaN      NaN      NaN          30
+6                age  float64         float           2               0  ...     32.5     4.254472     26.0     41.0          30
+7  performance_score  float64         float           1               0  ...     87.0     4.963413     78.0     96.0          30
+
+[8 rows x 13 columns]"
+overall,"{'rows': 30, 'duplicate_rows': 0, 'total_nulls': 8, 'columns': 8}"
+csv_path,outputs\profiles\profile_test_data.csv

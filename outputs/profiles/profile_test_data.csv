@@ -1,0 +1,9 @@
+column,dtype,inferred_type,null_count,duplicate_rows,type_mismatch_count,unique_count,mean,median,std,min,max,total_rows
+employee_id,int64,int,0,0,0,30,15.5,15.5,8.803408430829505,1.0,30.0,30
+name,object,string,0,0,0,30,,,,,,30
+department,object,string,0,0,0,4,,,,,,30
+salary,float64,float,3,0,0,22,66814.81481481482,65000.0,8840.627531838176,55000.0,82000.0,30
+hire_date,object,string,0,0,0,30,,,,,,30
+email,object,string,2,0,0,28,,,,,,30
+age,float64,float,2,0,0,16,32.785714285714285,32.5,4.254471659387226,26.0,41.0,30
+performance_score,float64,float,1,0,0,19,87.27586206896552,87.0,4.963412936709534,78.0,96.0,30
