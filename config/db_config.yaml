@@ -5,8 +5,8 @@ oracle:
   host: 127.0.0.1
   port: 1521
   service_name: XEPDB1
-  username: system
-  password: abie
+  username: 
+  password: 
   # Optional: If you use a TNS alias, set dsn directly and leave host/port/service_name empty
   dsn: null
 
