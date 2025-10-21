@@ -154,7 +154,7 @@ def display_csv_upload_and_actions():
 st.sidebar.header("⚙️ Configuration")
 data_source = st.sidebar.radio(
     "Select Data Source",
-    ["Oracle Database", "CSV Upload"],
+    ["CSV Upload", "Oracle Database"],
     key="data_source_radio",
     help="Choose between Oracle database connection or CSV file upload"
 )
